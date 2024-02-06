@@ -67,34 +67,3 @@ header .navigation a:not(:last-child){
 header .navigation a:hover{
     background-color:azure;
 }
-button {
-    background-color: rgb(63, 166, 240);
-    box-shadow:4px 4px 0 rgb(63, 166, 240);
-    color:white;
-    padding: 5px 5px;
-    margin: 20px;
-    margin-top: 20px;
-    font-size: 14px;
-    font-weight: 700;
-    border:solid black;
-    border-radius: 7px;
-    transition: 0.3s , box-shadow 0.2s; 
-}
-button:active{
-    transform: translate(4px, 4px);
-    box-shadow: 0 0 0 rgb(63, 166, 240);
-
-
-}
-img {
-    position: relative;
-    display: flex;
-    background-size: contain;
-    display: flex;
-    justify-content: space-between;
-    top:100%;
-    margin-left: 1000px;
-    max-width: 100%;
-    height: auto;
-    
-}
