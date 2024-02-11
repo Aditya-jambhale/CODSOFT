@@ -44,7 +44,6 @@
     justify-content: space-between;
     padding-right: 100px;
     padding-left: 100px;
-    
     position: relative;
     background: linear-gradient(180deg, #f1faee, #5eade7, #4567f0);
 }
@@ -177,6 +176,5 @@ button:hover{
    color:blue;
 }
 .text-4 p{
-    text-align: center;
-    margin:2;
+    justify-content: center;
 }
