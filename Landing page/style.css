@@ -158,23 +158,41 @@ button:hover{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.Info-section{
+.about {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.about .about-content {
     display: flex;
-    margin-left: 100px;
-    margin-top: 30px;
-    text-align: center;
-}
-.Info-section img{
-    height: 400px;
-   
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin-left:20px;
     
-}   
-.text-4 h3{
-   padding-left: 400px;
-   position: relative;
-   font-weight: bold;
-   color:blue;
+    padding: 10px 20px;
 }
-.text-4 p{
-    justify-content: center;
+
+.about .about-content .left {
+    width: 45%;
+}
+
+.about .about-content .left img {
+    max-width: 100%;
+    border-radius: 5px;
+    height: 400px;
+}
+
+.about .about-content .right {
+    width: 50%;
+    text-align: justify;
+    max-width: fit-content;
+}
+
+.about .about-content .right p {
+    margin-top: 10px;
+    text-align: justify;
+}
+.about .title{
+   margin-left: 60%;
 }
