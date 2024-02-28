@@ -254,7 +254,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #6e6e6e;
+    color: #595757;
     background: none;
 }
 
@@ -274,7 +274,7 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: #bf4040;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -282,7 +282,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #6e6e6e;
+    background: #4e4d4d;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -331,7 +331,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: #6e6e6e;
+    color: #6c6b6b;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -350,7 +350,7 @@ section .title::after{
 .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
-    background: lightgrey;
+    background: rgb(229, 195, 195);
     position: relative;
 }
 .skills .skills-content .right .line::before{
@@ -803,4 +803,10 @@ ul {
         font-size: 23px;
         line-height: 38px;
     }
+}
+.last{
+    margin-left: 620px;
+}
+.last a{
+    color: rgb(240, 240, 130);
 }
