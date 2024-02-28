@@ -806,7 +806,8 @@ ul {
 }
 .last{
     margin-left: 620px;
+    font-weight: bold;
 }
 .last a{
-    color: rgb(240, 240, 130);
+    color: rgb(208, 208, 69);
 }
